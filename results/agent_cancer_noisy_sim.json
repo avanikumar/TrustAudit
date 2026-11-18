@@ -1,0 +1,14 @@
+{
+  "dataset": "cancer",
+  "writer": "NoisyWriter",
+  "rows": 100,
+  "status": {
+    "verified": 0.8,
+    "partially_verified": 0.19,
+    "failed": 0.01
+  },
+  "mean_attempts": 2.18,
+  "claims_supported_first_draft": 0.6266666666666666,
+  "claims_supported_final": 0.8933333333333333,
+  "mean_seconds_per_row": 0.026802777280000214
+}

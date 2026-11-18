@@ -1,0 +1,21 @@
+{
+  "dataset": "cancer",
+  "rows": 114,
+  "results": {
+    "shap_only": {
+      "accept_correct": 1.0,
+      "reject_flipped": 1.0,
+      "reject_exaggerated": 1.0
+    },
+    "deletion_only": {
+      "accept_correct": 0.9912280701754386,
+      "reject_flipped": 1.0,
+      "reject_exaggerated": 0.7017543859649122
+    },
+    "shap+deletion": {
+      "accept_correct": 0.9912280701754386,
+      "reject_flipped": 1.0,
+      "reject_exaggerated": 1.0
+    }
+  }
+}

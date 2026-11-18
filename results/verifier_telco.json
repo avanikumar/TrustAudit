@@ -1,0 +1,21 @@
+{
+  "dataset": "telco",
+  "rows": 200,
+  "results": {
+    "shap_only": {
+      "accept_correct": 1.0,
+      "reject_flipped": 1.0,
+      "reject_exaggerated": 1.0
+    },
+    "deletion_only": {
+      "accept_correct": 0.97,
+      "reject_flipped": 0.97,
+      "reject_exaggerated": 0.525
+    },
+    "shap+deletion": {
+      "accept_correct": 0.97,
+      "reject_flipped": 1.0,
+      "reject_exaggerated": 1.0
+    }
+  }
+}
